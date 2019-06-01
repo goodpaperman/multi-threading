@@ -1,0 +1,21 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ShareMem - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo".\Debug/ShareMem.res" /d "_DEBUG" /d "_AFXDLL" "E:\codes\mfc\10.jjhou.multithreading applications in win32\source\SAMPLES\SHAREMEM\ShareMem.rc"" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:".\Debug/SHAREMEM.pdb" /debug /machine:I386 /out:".\Debug/SHAREMEM.exe"  ".\Debug\ShareMem.obj" ".\Debug\ShareDlg.obj" ".\Debug\StdAfx.obj" ".\Debug\ShareMem.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Linking...
+
+
+
+<h3>Results</h3>
+SHAREMEM.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

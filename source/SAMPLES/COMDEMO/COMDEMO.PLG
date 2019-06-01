@@ -1,0 +1,69 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ComDemo - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP3CC.bat" with contents
+[
+@echo off
+midl ComDemo.idl
+]
+Creating command line "C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP3CC.bat"
+Creating command line "rc.exe /l 0x409 /fo".\Debug/ComDemo.res" /d "_DEBUG" "E:\codes\mfc\10.jjhou.multithreading applications in win32\source\SAMPLES\COMDEMO\ComDemo.rc"" 
+Performing Custom Build Step on .\ComDemo.idl
+Microsoft (R) MIDL Compiler Version 5.01.0164  
+Copyright (c) Microsoft Corp 1991-1997. All rights reserved.
+Processing .\ComDemo.idl
+ComDemo.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\oaidl.idl
+oaidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\objidl.idl
+objidl.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\unknwn.idl
+unknwn.idl
+Processing C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\wtypes.idl
+wtypes.idl
+Creating temporary file "C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP3D2.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I ".." /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_USRDLL" /D "_WINDLL" /D "_MBCS" /FR".\Debug/" /Fp".\Debug/COMDEMO.pch" /Yu"stdafx.h" /Fo".\Debug/" /Fd".\Debug/" /FD /c 
+"E:\codes\mfc\10.jjhou.multithreading applications in win32\source\SAMPLES\COMDEMO\ComDemo.cpp"
+"E:\codes\mfc\10.jjhou.multithreading applications in win32\source\SAMPLES\COMDEMO\AutoIncr.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP3D2.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP3D3.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:yes /pdb:".\Debug/COMDEMO.pdb" /debug /machine:I386 /def:".\ComDemo.def" /out:".\Debug/COMDEMO.dll" /implib:".\Debug/COMDEMO.lib" 
+".\Debug\StdAfx.obj"
+".\Debug\ComDemo.obj"
+".\Debug\AutoIncr.obj"
+".\Debug\ComDemo.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP3D3.tmp"
+Creating temporary file "C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP3D4.bat" with contents
+[
+@echo off
+regsvr32 /s /c ".\Debug\COMDEMO.dll"
+echo regsvr32 exec. time > ".\Debug\regsvr32.trg"
+]
+Creating command line "C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP3D4.bat"
+Compiling resources...
+Compiling...
+ComDemo.cpp
+Generating Code...
+Compiling...
+AutoIncr.cpp
+Generating Code...
+Linking...
+<h3>Output Window</h3>
+Performing Custom Build Step on .\Debug\COMDEMO.dll
+
+
+
+<h3>Results</h3>
+COMDEMO.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Dining - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP14B.tmp" with contents
+[
+/nologo /ML /W3 /Gm /GX /ZI /Od /I ".." /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp".\Debug/DINING.pch" /YX"windows.h" /Fo".\Debug/" /Fd".\Debug/" /FD /c 
+"E:\codes\mfc\10.jjhou.multithreading applications in win32\source\SAMPLES\DINING\Dining.C"
+"E:\codes\mfc\10.jjhou.multithreading applications in win32\source\SAMPLES\DINING\Mutex.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP14B.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP14C.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib /nologo /incremental:yes /pdb:".\Debug/DINING.pdb" /debug /machine:I386 /out:".\Debug/DINING.exe" /subsystem:windows,4.0 
+".\Debug\Dining.obj"
+".\Debug\Mutex.obj"
+".\Debug\Dining.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP14C.tmp"
+<h3>Output Window</h3>
+Compiling...
+Dining.C
+Mutex.c
+Linking...
+
+
+
+<h3>Results</h3>
+DINING.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
